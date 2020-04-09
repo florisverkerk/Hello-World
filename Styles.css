@@ -1,16 +1,21 @@
 body {
     background-color: beige;
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Helvetica", sans-serif;
 }
 
-.content section {
-    position: relative;
+.ContentSection {
+    background-color:lightblue;
+    text-align: center;
     border: 15px black;
-    margin: 50px;
 }
+
 ul { 
     position: relative;
     list-style-position: inside
 }
+
 
