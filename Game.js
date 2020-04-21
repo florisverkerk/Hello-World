@@ -8,11 +8,11 @@ var guesses = [];
 
 for (i = 1; i <= guessLimit; i++) {
     // prompt user for their guess
-    do { 
-        userGuess = parseInt(prompt("Guess a number between 1-100"));
+    do{
+    userGuess = parseInt(prompt("Guess a number between 1-100"));
     }
-    while (isNaN(userGuess) || isPreviousGuess(userGuess)); 
-    
+    while (isPreviousGuess = true);
+     
     // if correct: let the user know they won
     if(userGuess == correctNumber){
         window.alert("You've won! The correct number was " + correctNumber);
@@ -29,7 +29,7 @@ for (i = 1; i <= guessLimit; i++) {
 // if the user ran out of tries, let them know the game is over
 if(!won){
     document.write("Sorry, you ran out of tries. You've only had: " + guessLimit + " tries" +
-    "\n the correct number was: " + correctNumber + " Please refresh and try again!");
+    "\n the correct number was: " + correctNumber + ". Please refresh and try again!");
 }
 
 function isPreviousGuess(){
