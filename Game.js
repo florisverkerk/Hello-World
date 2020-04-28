@@ -10,7 +10,9 @@ for (var i = 1; i <= limit; i++){
     // prompt user for their guess
     do{
         guess = parseInt(prompt("Guess a number between 1-100"));
-    } while(isNaN(guess) || isPreviousGuess(guess));
+    } 
+    // Not a number (NaN) = true or guess is a previous guess = true
+    while(isNaN(guess) || isPreviousGuess(guess));
     
     // if correct: let the user know they won
     if(guess == number){
