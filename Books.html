@@ -8,6 +8,15 @@
         <header>
             This page is about books.
         </header>
-
+        <hr>
+        <form action="" onsubmit="return verify()" method="POST">
+            <input id="username" name="username" type="text">Enter your
+            name</input>
+            <p id="validationMessage" hidden>Number must be between 40-90</p>
+            <p id="nanMessage" hidden>Please enter a numeric value</p>
+            <input id="number" name="number" type="text">Enter a number between 40-90</input>
+            <input type="submit"></input>    
+        </form>
+        <script src="FormValidation.js"></script>
     </body>
 </html>

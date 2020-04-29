@@ -23,4 +23,7 @@ button{
     background: rgba(176, 183, 187, 0.603);
   }
 
+input{
+    display: block;
+}
 
